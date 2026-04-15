@@ -1,0 +1,393 @@
+LanguageID: 1
+LanguageName: Português
+System:
+  Selected: '&6Você selecionou o idioma &aPortuguês'
+  Home_Page: 'Início'
+  Commands_Page: 'Comandos'
+  Updates_Page: 'Atualizações'
+  Usage_Page: 'Uso'
+  Languages_Page: 'Idiomas'
+  Community_Page: 'Comunidade'
+  Trails_CMD: 'Abrir menu de trilhas'
+  TrailsID_CMD: 'Selecionar trilha por ID'
+  SuperTrails_CMD: 'Painel admin - Início'
+  SuperTrails_Player_CMD: 'Página Inicial'
+  CmdNoPermissionTrail: '&cDesculpe, você não tem permissão para esta trilha!'
+  NoWingsPermission: '&cDesculpe, você não tem permissão para essas asas'
+  NoPatternPermission: '&cDesculpe, você não tem permissão para este padrão'
+  TrailSelected: '&7Você selecionou a trilha &a&l!name!'
+  ToggleOnMessage: '&7Todas as trilhas visíveis'
+  ToggleOffMessage: '&7Todas as trilhas ocultadas'
+MenuNames:
+  Selector: 'Trilhas: Selecionar Tipo'
+  Particles: 'Trilhas: Partículas'
+  Blocks: 'Trilhas: Blocos'
+  Languages: 'Trilhas: Idiomas'
+  Modes: 'Trilhas: Modos'
+  Rain1: 'Selecionar cor da chuva'
+  Rain2: 'Selecionar item da chuva'
+  Wings: 'Asas'
+  Wings1: 'Selecionar asas'
+  Wings2: 'Cor ou Padrão'
+  Wings3: 'Selecionar primeira cor'
+  Wings4: 'Selecionar segunda cor'
+  Wings5: 'Selecionar terceira cor'
+  WingsPattern: 'Selecionar padrão'
+  Event: 'Trilhas: Evento'
+  EventSecond: 'Trilhas: Evento'
+  EventOpen: 'Trilhas: Abrir'
+  AreYouSure: 'Tem certeza?'
+Menu:
+  Particle: '&6Trilhas de Partículas'
+  Block: '&3Trilhas de Blocos'
+  Rain: '&7Chuvas'
+  Wings: '&fAsas'
+  Langs: '&7Idiomas'
+  Admin: '&7Opções Admin'
+  Event: '&fEvento'
+  Clear: '&cRemover Trilha'
+  Access: '&a&lClique para selecionar!'
+  NoAccess: '&c&lSem permissão para esta trilha'
+  NoPermission: '§c§lSem permissão'
+  Sell: 'Vender'
+  Buy: 'Comprar'
+  Modes: '&8!prev &7< &f&l!current &7> &8!next'
+  Back: '&7<< Voltar ao menu principal'
+  NoTrails: '&cVocê não tem trilhas nesta seção'
+  LangSelect: '&8Clique para selecionar'
+  Lore:
+    - '&6&l----------'
+    - '!permission!'
+  Next: '&aPróxima Página'
+  Prev: '&aPágina Anterior'
+  AYS:
+    SignItem:
+      Name: '&fTem certeza?'
+    YesItem:
+      Name: '&eSim'
+      Lore:
+        - ' '
+        - '&fClique aqui para confirmar'
+    NoItem:
+      Name: '&aNão'
+      Lore:
+        - ' '
+        - '&fClique aqui para cancelar'
+  Keeper:
+    Empty:
+      Name: '&7Slot Vazio'
+      Lore:
+        - ' '
+        - '&eClique aqui para criar um conjunto de asas'
+    ColorWings:
+      Name: '!wingsname!'
+      Lore:
+        - ' '
+        - '&7Cores:'
+        - '&7 - !color1!'
+        - '&7 - !color2!'
+        - '&7 - !color3!'
+        - ' '
+        - '&eClique Esquerdo para Selecionar'
+        - '&eClique Direito para Editar'
+    PatternWings:
+      Name: '!wingsname!'
+      Lore:
+        - ' '
+        - '&7Padrão: &f!pattern!'
+        - ' '
+        - '&eClique Esquerdo para Selecionar'
+        - '&eClique Direito para Editar'
+    Remove:
+      Name: '&cRemover este conjunto'
+      Lore:
+        - '&cClique aqui para remover o conjunto atual'
+    Save:
+       Name: '&aSalvar'
+       Lore:
+         - ' '
+         - '&eClique para salvar as alterações'
+    Cancel:
+       Name: '&eCancelar'
+       Lore:
+         - ' '
+         - '&cNão aplicar nenhuma alteração!'
+    WingsChange:
+      Name: '&f!wingsname!'
+      Lore:
+        - ' '
+        - '&eClique aqui para trocar as asas'
+    ColorChange:
+      Name: '&f!color!'
+      Lore:
+        - ' '
+        - '&eClique aqui para trocar a cor'
+    PatternChange:
+      Name: '&f!pattern!'
+      Lore:
+        - ' '
+        - '&eClique aqui para trocar o padrão'
+    BuildIt:
+      Name: '&aComece a criar seu conjunto agora'
+      Lore:
+        - '&7Escolha as asas acima'
+    Undefined: '&fNenhum'
+    NotSupported:
+      Name: '&cAs asas atuais não suportam esta cor'
+    ResetPattern:
+      Name: '&cClique aqui para resetar o padrão'
+    SetUnfinishedError: '&cNão foi possível aplicar o conjunto'
+Event:
+  Messages:
+    Start: '=== /n&a&LEvento iniciado, pegue !a! baú de evento grátis agora! /n&6Digite /Trails'
+    End: '&cEvento encerrado!'
+    Wait: '&cAguarde antes de abrir outro baú'
+  Rarity:
+    Common: '&f&lCOMUM'
+    Rare: '&3&lRARO'
+    Epic: '&6&lÉPICO'
+  Chest:
+    Name: '&fBaú de Evento'
+    Lore:
+      - ' '
+      - '&7Baús que você tem: !a!'
+      - ' '
+      - '!open!'
+    Open: '&a>> Clique para abrir <<'
+    CantOpen: '&cVocê não tem baús'
+  OpenChest:
+    Name: '&aClique para abrir'
+    Lore:
+      - ' '
+      - 'Loot: ???'
+      - ' '
+      - '&7Clique em qualquer baú para abri-lo'
+  Empty:
+    Name: '&7Baú vazio'
+  Confetti:
+    Name: '&fTrilha Confete'
+    Lore:
+      - ' '
+      - '&fCores:'
+      - '!color1!'
+      - '!color2!'
+      - '!color3!'
+      - ' '
+      - '&7Raridade: !r!'
+      - ' '
+      - '&a&lClique para selecionar'
+  ColorSpin:
+    Name: '!color! Trilha Giratória'
+    Lore:
+      - ' '
+      - '&7Raridade: !r!'
+      - ' '
+      - '&a&lClique para selecionar'
+  Color:
+    Name: '!color!&f Cor de Asas/Chuva'
+    Lore:
+      - ' '
+      - '&8Disponível nos criadores de Asas e Chuva'
+      - ' '
+      - '&7Raridade: !r!'
+  UnlockedColor:
+    Name: '!color!&f cor'
+    Lore:
+      - ' '
+      - '&8Você obteve esta cor de um baú de evento'
+      - ' '
+      - '&7Raridade: !r!'
+  LockedColor:
+    Name: '&cBloqueado'
+    Lore:
+      - ' '
+      - '&7Obtenha em baús de evento'
+      - ' '
+      - '&7Raridade: !r!'
+  Nothing:
+    Name: '&c???'
+  Fairy:
+    Name: '!color! Trilha Fada'
+    Lore:
+      - ' '
+      - '&8Invoca uma fada que te segue'
+      - ' '
+      - '&7Raridade: !r!'
+  Points:
+    LoreAdd:
+      - ' '
+      - '&cVocê já tem esta trilha, foi'
+      - '&cconvertida para &l!points! &cpontos'
+  PointsItem:
+    Name: '&bPontos: !points!'
+    Lore:
+      - ' '
+      - '&7Você pode converter pontos em baús'
+      - ' '
+      - '&71 Baú = 100 Pontos'
+      - ' '
+      - '!convert!'
+    CanConvert: '&eClique para converter seus pontos!'
+    CantConvert: '&cVocê não tem pontos suficientes'
+  DatabaseErrorCatch: '&cNão foi possível atualizar seus dados, tente novamente mais tarde.'
+ParticleMenu:
+  Heart: '&cCorações'
+  Angry: '&6Raiva'
+  Magic: '&3Magia'
+  Fun: '&eDiversão'
+  Cloud: '&fNuvem'
+  Witch: '&5Bruxa'
+  Ender: '&dEnder'
+  Green: '&aVerde'
+  Spark: '&fFaíscas'
+  Flame: '&6Chamas'
+  White: '&fMagia Branca'
+  Note: '&3Notas'
+  Snow: '&fNeve'
+  Water: '&9Água'
+  Lava: '&6Lava'
+  Crit: '&fCrítico'
+  Smoke: '&7Fumaça'
+  Spell: '&eFeitiço'
+  Enchant: '&fEncantamento'
+  Splash: '&9Respingo'
+  Slime: '&aSlime'
+  Snowball: '&fBolas de Neve'
+  Void: '&7Vazio'
+  LavaPop: '&eLava POP'
+  Rainbow: '&eArco-Íris'
+  Breath: '&dSopro do Dragão'
+  EndRod: '&7Haste do End'
+  Damage: '&cDano'
+  Totem: '&aTotem'
+  Soul: '&bAlma'
+  SoulFire: '&bFogo da Alma'
+  GoldSparks: '&6Faíscas Douradas'
+  GlowSquid: '&bLula Brilhante'
+  PinkConfetti: '&dConfete Rosa'
+Modes:
+  Default: 'Padrão'
+  Circle: 'Círculo'
+  Magician: 'Mágico'
+  Shooter: 'Atirador'
+  Slinky: 'Slinky'
+  Pulse: 'Pulso'
+  Helix: 'Hélice'
+  Dna: 'DNA'
+  Spiral: 'Espiral'
+  ModeNotSupported: '&cModo atual não suportado com esta trilha'
+  TrailNotSupported: '&cTrilha atual não suportada com este modo'
+  Lore:
+    - '&6&l----------'
+    - '!permission!'
+BlockMenu:
+  1:
+    Name: '&fBlocos #1'
+    Lore:
+      - ' '
+      - '&8Blocos:'
+      - '&8- Lã (Vermelho)'
+      - '&8- Lã (Amarelo)'
+      - '&8- Lã (Verde)'
+      - '&8- Lã (Azul)'
+      - ' '
+      - '!permission!'
+  2:
+     Name: '&fBlocos #2'
+     Lore:
+       - ' '
+       - '&8Blocos:'
+       - '&8- Vidro (Branco)'
+       - '&8- Vidro (Laranja)'
+       - '&8- Vidro (Magenta)'
+       - '&8- Vidro (Azul)'
+       - ' '
+       - '!permission!'
+  3:
+     Name: '&fBlocos #3'
+     Lore:
+       - ' '
+       - '&8Blocos:'
+       - '&8- Minério de Quartzo'
+       - '&8- Tijolo do Nether'
+       - '&8- Netherrack'
+       - '&8- Pedra Brilhante'
+       - ' '
+       - '!permission!'
+  4:
+     Name: '&fBlocos #4'
+     Lore:
+       - ' '
+       - '&8Blocos:'
+       - '&8- Terracota (Laranja)'
+       - '&8- Terracota (Magenta)'
+       - '&8- Terracota (Cinza)'
+       - '&8- Terracota (Rosa)'
+       - ' '
+       - '!permission!'
+  5:
+     Name: '&fBlocos #5'
+     Lore:
+       - ' '
+       - '&8Blocos:'
+       - '&8- Minério de Lápis'
+       - '&8- Minério de Esmeralda'
+       - '&8- Minério de Redstone'
+       - '&8- Minério de Carvão'
+       - ' '
+       - '!permission!'
+  6:
+     Name: '&fBlocos #6'
+     Lore:
+       - ' '
+       - '&8Blocos:'
+       - '&8- TNT'
+       - '&8- Pistão'
+       - '&8- Bloco de Nota'
+       - '&8- Bloco de Redstone'
+       - ' '
+       - '!permission!'
+  7:
+     Name: '&fBlocos #7'
+     Lore:
+       - ' '
+       - '&8Blocos:'
+       - '&8- Podzol'
+       - '&8- Grama'
+       - '&8- Cascalho'
+       - '&8- Areia'
+       - ' '
+       - '!permission!'
+  8:
+     Name: '&fBlocos #8'
+     Lore:
+       - ' '
+       - '&8Blocos:'
+       - '&8- Bloco de Ferro'
+       - '&8- Bloco de Ouro'
+       - '&8- Bloco de Diamante'
+       - '&8- Bloco de Esmeralda'
+       - ' '
+       - '!permission!'
+RainAndWings:
+  White: '&fBranco'
+  Red: '&cVermelho'
+  Yellow: '&eAmarelo'
+  Green: '&aVerde'
+  Blue: '&9Azul'
+  Purple: '&dRoxo'
+  Black: '&7Preto'
+  Orange: '&6Laranja'
+  Marmoreal: '&7Mármore'
+  Darkred: '&4Vermelho Escuro'
+  Pink: '&dRosa'
+  Darkcyan: '&3Ciano Escuro'
+  Aqua: '&bAqua'
+  Gray: '&7Cinza'
+  Rainbow: '&7Arco-Íris'
+  Color: '&fCor'
+  Pattern: '&fPadrão'
+Wings:
+  Angel: '&f&lAnjo'
+Pattern:
+  Pattern1: 'P1'

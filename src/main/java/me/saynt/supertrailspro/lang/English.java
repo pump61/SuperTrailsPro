@@ -49,16 +49,33 @@ public class English {
       }
    }
 
+   private static final String[] BUNDLED_LANGUAGES = {
+      "English.yml",
+      "Portuguese.yml",
+      "Spanish.yml",
+      "German.yml",
+      "Polish.yml",
+      "Italian.yml",
+      "French.yml"
+   };
+
    public static void cloneLanguageFile() {
-      File var0 = new File(SuperTrails.p.getDataFolder(), "/languages/English.yml");
       File var1 = new File(SuperTrails.p.getDataFolder(), "/languages/Defaults.file");
       try {
-         if (!var0.exists()) {
-            copy(getInputFromJar("English.yml"), var0);
-         }
          copy(getInputFromJar("English.yml"), var1);
-      } catch (Exception var3) {
-         var3.printStackTrace();
+      } catch (Exception e) {
+         e.printStackTrace();
+      }
+      for (String fileName : BUNDLED_LANGUAGES) {
+         try {
+            File dest = new File(SuperTrails.p.getDataFolder(), "/languages/" + fileName);
+            if (!dest.exists()) {
+               InputStream in = getInputFromJar(fileName);
+               if (in != null) copy(in, dest);
+            }
+         } catch (Exception e) {
+            e.printStackTrace();
+         }
       }
    }
 }
