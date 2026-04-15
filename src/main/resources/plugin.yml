@@ -1,0 +1,14 @@
+name: SuperTrailsPro
+version: v2.0.0
+main: me.saynt.supertrailspro.SuperTrails
+author: [kvq]
+api-version: '1.21'
+loadbefore: [SuperTrails]
+softdepend: [Citizens]
+commands:
+  trails:
+    description: null
+  supertrails:
+    description: null
+  trailsid:
+    description: null
