@@ -1,9 +1,3 @@
-Beleza — então o ideal é deixar mais **profissional, neutro e fiel ao projeto original**, sem parecer que você é o autor. Também é importante não colocar créditos errados (tipo “desenvolvido por você”), já que é o repositório dele.
-
-Aqui vai uma versão ajustada, no padrão que normalmente aparece na página principal do GitHub 👇
-
----
-
 # 🌈 SuperTrailsPro Reloaded
 
 Advanced trails, wings and visual effects plugin for Minecraft servers.
@@ -26,6 +20,31 @@ This project is a reloaded and optimized version of the original **SuperTrailsPr
 * Combat detection (hide trails in PvP)
 * Sound effects system
 * Reward/Event system
+
+---
+
+## 📸 Screenshots
+
+### 🎆 Particle Trails
+
+<img width="306" height="410" alt="image" src="https://github.com/user-attachments/assets/c29a02ee-13e8-4ae0-8e83-5710de39f7b4" />
+
+### 🧱 Block Trails
+
+<img width="805" height="517" alt="image" src="https://github.com/user-attachments/assets/47aa1c44-79a7-44ac-a827-29a531505ed6" />
+
+### 🌧️ Rain Trails
+
+<img width="448" height="580" alt="image" src="https://github.com/user-attachments/assets/0af6f87d-bb72-4954-b112-87b54ccdddb7" />
+
+### 🪽 Wings System
+
+<img width="378" height="380" alt="image" src="https://github.com/user-attachments/assets/d6d8cbbb-3731-4163-8e7a-b7811f41a911" />
+
+
+### 🎮 Menu GUI
+
+<img width="534" height="509" alt="image" src="https://github.com/user-attachments/assets/17637ebb-63b3-4ad3-b9bb-edbaaf008d54" />
 
 ---
 
@@ -146,16 +165,4 @@ Administrative permissions
 
 ## 🔗 Links
 
-* GitHub Repository: [https://github.com/pump61/SuperTrailsPro](https://github.com/pump61/SuperTrailsPro)
 * Spigot Resource: [https://www.spigotmc.org/resources/supertrailspro-reloaded.134311/](https://www.spigotmc.org/resources/supertrailspro-reloaded.134311/)
-
----
-
-Se quiser dar um nível a mais (tipo projeto grande mesmo), posso te montar:
-
-* badges (build, version, downloads)
-* gifs mostrando trails
-* screenshots organizadas
-* seção de API pra devs
-
-Isso deixa o repositório MUITO mais profissional.
