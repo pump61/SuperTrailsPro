@@ -166,5 +166,5 @@ Administrative permissions
 ## 🔗 Links
 
 * Spigot Resource: [https://www.spigotmc.org/resources/supertrailspro-reloaded.134311/](https://www.spigotmc.org/resources/supertrailspro-reloaded.134311/)
-* Spigot Resource: [https://modrinth.com/plugin/supertrailspro](https://modrinth.com/plugin/supertrailspro)
+* Modrinth: [https://modrinth.com/plugin/supertrailspro](https://modrinth.com/plugin/supertrailspro)
 
