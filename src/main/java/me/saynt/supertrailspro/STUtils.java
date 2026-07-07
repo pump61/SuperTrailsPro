@@ -34,11 +34,11 @@ public class STUtils {
          if (!Character.isDigit(var0.charAt(0))) {
             return InvControl.readItemStack(var0);
          } else {
-            // Formato legado "id:data" — tenta converter por nome via mapeamento
-            String[] var1 = var0.split(":");
-            // IDs numéricos não são mais suportados, tenta como nome
-            Material mat = Material.getMaterial(var1[0]);
-            if (mat == null) {
+            // Legacy numeric "id" or "id:data" format (e.g. "288:0"). Numeric IDs no
+            // longer resolve by name on modern MC, so translate via the legacy map
+            // (288 -> FEATHER, 160:1 -> ORANGE_STAINED_GLASS_PANE, ...).
+            Material mat = legacyMaterial(var0);
+            if (mat == null || mat == Material.AIR) {
                PluginMessages.Error("Cannot resolve material from legacy id: " + var0);
                return null;
             }
@@ -51,13 +51,89 @@ public class STUtils {
       }
    }
 
+   private static final String[] LEGACY_COLORS = {
+      "WHITE", "ORANGE", "MAGENTA", "LIGHT_BLUE", "YELLOW", "LIME", "PINK", "GRAY",
+      "LIGHT_GRAY", "CYAN", "PURPLE", "BLUE", "BROWN", "GREEN", "RED", "BLACK"
+   };
+
+   /**
+    * Map a legacy numeric "id" / "id:data" string (e.g. "288:0", "160:1") to a modern
+    * Material. Youer/Paper strip the LEGACY_* enum values, so runtime legacy lookups
+    * return nothing; we translate the ids the plugin's bundled configs use directly.
+    */
+   private static Material legacyMaterial(String var0) {
+      try {
+         String[] var1 = var0.split(":");
+         int id = Integer.parseInt(var1[0].trim());
+         int data = var1.length > 1 ? Integer.parseInt(var1[1].trim()) : 0;
+         String name = legacyName(id, data);
+         return name == null ? null : Material.matchMaterial(name);
+      } catch (Throwable var5) {
+         return null;
+      }
+   }
+
+   private static String legacyName(int id, int data) {
+      String c = data >= 0 && data < 16 ? LEGACY_COLORS[data] : "WHITE";
+      switch (id) {
+         case 35:  return c + "_WOOL";
+         case 95:  return c + "_STAINED_GLASS";
+         case 160: return c + "_STAINED_GLASS_PANE";
+         case 159: return c + "_TERRACOTTA";
+         case 171: return c + "_CARPET";
+         case 251: return c + "_CONCRETE";
+         case 252: return c + "_CONCRETE_POWDER";
+         case 351: return legacyDye(data);
+         case 20:  return "GLASS";
+         case 41:  return "GOLD_BLOCK";
+         case 42:  return "IRON_BLOCK";
+         case 46:  return "TNT";
+         case 57:  return "DIAMOND_BLOCK";
+         case 89:  return "GLOWSTONE";
+         case 133: return "EMERALD_BLOCK";
+         case 152: return "REDSTONE_BLOCK";
+         case 264: return "DIAMOND";
+         case 265: return "IRON_INGOT";
+         case 266: return "GOLD_INGOT";
+         case 288: return "FEATHER";
+         case 289: return "GUNPOWDER";
+         case 331: return "REDSTONE";
+         case 341: return "SLIME_BALL";
+         case 348: return "GLOWSTONE_DUST";
+         case 377: return "BLAZE_POWDER";
+         case 399: return "NETHER_STAR";
+         default:  return null;
+      }
+   }
+
+   /** Legacy dye data (id 351) ordering differs from wool (0 = black ink, 15 = bone meal). */
+   private static String legacyDye(int data) {
+      switch (data) {
+         case 1:  return "RED_DYE";
+         case 2:  return "GREEN_DYE";
+         case 3:  return "COCOA_BEANS";
+         case 4:  return "LAPIS_LAZULI";
+         case 5:  return "PURPLE_DYE";
+         case 6:  return "CYAN_DYE";
+         case 7:  return "LIGHT_GRAY_DYE";
+         case 8:  return "GRAY_DYE";
+         case 9:  return "PINK_DYE";
+         case 10: return "LIME_DYE";
+         case 11: return "YELLOW_DYE";
+         case 12: return "LIGHT_BLUE_DYE";
+         case 13: return "MAGENTA_DYE";
+         case 14: return "ORANGE_DYE";
+         case 15: return "BONE_MEAL";
+         default: return "INK_SAC";
+      }
+   }
+
    public static ItemStack idParser(String var0) {
       if (!Character.isDigit(var0.charAt(0))) {
          return InvControl.readItemStack(var0);
       } else {
-         String[] var1 = var0.split(":");
-         Material mat = Material.getMaterial(var1[0]);
-         if (mat == null) return new ItemStack(Material.STONE);
+         Material mat = legacyMaterial(var0);
+         if (mat == null || mat == Material.AIR) return new ItemStack(Material.STONE);
          return new ItemStack(mat, 1);
       }
    }

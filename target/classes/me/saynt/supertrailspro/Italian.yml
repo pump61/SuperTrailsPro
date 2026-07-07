@@ -1,0 +1,393 @@
+LanguageID: 5
+LanguageName: Italiano
+System:
+  Selected: '&6Hai selezionato la lingua &aItaliano'
+  Home_Page: 'Home'
+  Commands_Page: 'Comandi'
+  Updates_Page: 'Aggiornamenti'
+  Usage_Page: 'Utilizzo'
+  Languages_Page: 'Lingue'
+  Community_Page: 'Comunità'
+  Trails_CMD: 'Apri menu scie'
+  TrailsID_CMD: 'Seleziona scia per ID'
+  SuperTrails_CMD: 'Pannello admin - Home'
+  SuperTrails_Player_CMD: 'Pagina Home'
+  CmdNoPermissionTrail: '&cSpiacente, non hai il permesso per questa scia!'
+  NoWingsPermission: '&cSpiacente, non hai il permesso per queste ali'
+  NoPatternPermission: '&cSpiacente, non hai il permesso per questo motivo'
+  TrailSelected: '&7Hai selezionato la scia &a&l!name!'
+  ToggleOnMessage: '&7Tutte le scie visibili'
+  ToggleOffMessage: '&7Tutte le scie nascoste'
+MenuNames:
+  Selector: 'Scie: Seleziona tipo'
+  Particles: 'Scie: Particelle'
+  Blocks: 'Scie: Blocchi'
+  Languages: 'Scie: Lingue'
+  Modes: 'Scie: Modalità'
+  Rain1: 'Seleziona colore pioggia'
+  Rain2: 'Seleziona oggetto pioggia'
+  Wings: 'Ali'
+  Wings1: 'Seleziona ali'
+  Wings2: 'Colore o Motivo'
+  Wings3: 'Seleziona primo colore'
+  Wings4: 'Seleziona secondo colore'
+  Wings5: 'Seleziona terzo colore'
+  WingsPattern: 'Seleziona motivo'
+  Event: 'Scie: Evento'
+  EventSecond: 'Scie: Evento'
+  EventOpen: 'Scie: Apri'
+  AreYouSure: 'Sei sicuro?'
+Menu:
+  Particle: '&6Scie di particelle'
+  Block: '&3Scie di blocchi'
+  Rain: '&7Piogge'
+  Wings: '&fAli'
+  Langs: '&7Lingue'
+  Admin: '&7Opzioni admin'
+  Event: '&fEvento'
+  Clear: '&cRimuovi scia'
+  Access: '&a&lClicca per selezionare!'
+  NoAccess: '&c&lNessun permesso per questa scia'
+  NoPermission: '§c§lNessun permesso'
+  Sell: 'Vendi'
+  Buy: 'Acquista'
+  Modes: '&8!prev &7< &f&l!current &7> &8!next'
+  Back: '&7<< Torna al menu principale'
+  NoTrails: '&cNon hai scie in questa sezione'
+  LangSelect: '&8Clicca per selezionare'
+  Lore:
+    - '&6&l----------'
+    - '!permission!'
+  Next: '&aPagina successiva'
+  Prev: '&aPagina precedente'
+  AYS:
+    SignItem:
+      Name: '&fSei sicuro?'
+    YesItem:
+      Name: '&eSì'
+      Lore:
+        - ' '
+        - '&fClicca qui per confermare'
+    NoItem:
+      Name: '&aNo'
+      Lore:
+        - ' '
+        - '&fClicca qui per annullare'
+  Keeper:
+    Empty:
+      Name: '&7Slot vuoto'
+      Lore:
+        - ' '
+        - '&eClicca qui per creare un set di ali'
+    ColorWings:
+      Name: '!wingsname!'
+      Lore:
+        - ' '
+        - '&7Colori:'
+        - '&7 - !color1!'
+        - '&7 - !color2!'
+        - '&7 - !color3!'
+        - ' '
+        - '&eClic sinistro per selezionare'
+        - '&eClic destro per modificare'
+    PatternWings:
+      Name: '!wingsname!'
+      Lore:
+        - ' '
+        - '&7Motivo: &f!pattern!'
+        - ' '
+        - '&eClic sinistro per selezionare'
+        - '&eClic destro per modificare'
+    Remove:
+      Name: '&cRimuovi questo set'
+      Lore:
+        - '&cClicca qui per rimuovere il set attuale'
+    Save:
+       Name: '&aSalva'
+       Lore:
+         - ' '
+         - '&eClicca per salvare le modifiche'
+    Cancel:
+       Name: '&eAnnulla'
+       Lore:
+         - ' '
+         - '&cNon applicare modifiche!'
+    WingsChange:
+      Name: '&f!wingsname!'
+      Lore:
+        - ' '
+        - '&eClicca qui per cambiare le ali'
+    ColorChange:
+      Name: '&f!color!'
+      Lore:
+        - ' '
+        - '&eClicca qui per cambiare colore'
+    PatternChange:
+      Name: '&f!pattern!'
+      Lore:
+        - ' '
+        - '&eClicca qui per cambiare motivo'
+    BuildIt:
+      Name: '&aInizia a creare il tuo set ora'
+      Lore:
+        - '&7Scegli le ali sopra'
+    Undefined: '&fNessuno'
+    NotSupported:
+      Name: '&cLe ali attuali non supportano questo colore'
+    ResetPattern:
+      Name: '&cClicca qui per resettare il motivo'
+    SetUnfinishedError: '&cImpossibile applicare il set'
+Event:
+  Messages:
+    Start: '=== /n&a&LEvento iniziato, prendi !a! casse evento gratis ora! /n&6Scrivi /Trails'
+    End: '&cEvento terminato!'
+    Wait: '&cAspetta prima di aprire un''altra cassa'
+  Rarity:
+    Common: '&f&lCOMUNE'
+    Rare: '&3&lRARO'
+    Epic: '&6&lEPICO'
+  Chest:
+    Name: '&fCassa evento'
+    Lore:
+      - ' '
+      - '&7Casse che hai: !a!'
+      - ' '
+      - '!open!'
+    Open: '&a>> Clicca per aprire <<'
+    CantOpen: '&cNon hai casse'
+  OpenChest:
+    Name: '&aClicca per aprire'
+    Lore:
+      - ' '
+      - 'Bottino: ???'
+      - ' '
+      - '&7Clicca su qualsiasi cassa per aprirla'
+  Empty:
+    Name: '&7Cassa vuota'
+  Confetti:
+    Name: '&fScia confetti'
+    Lore:
+      - ' '
+      - '&fColori:'
+      - '!color1!'
+      - '!color2!'
+      - '!color3!'
+      - ' '
+      - '&7Rarità: !r!'
+      - ' '
+      - '&a&lClicca per selezionare'
+  ColorSpin:
+    Name: '!color! Scia rotante'
+    Lore:
+      - ' '
+      - '&7Rarità: !r!'
+      - ' '
+      - '&a&lClicca per selezionare'
+  Color:
+    Name: '!color!&f Colore ali/pioggia'
+    Lore:
+      - ' '
+      - '&8Disponibile nei creatori di Ali e Pioggia'
+      - ' '
+      - '&7Rarità: !r!'
+  UnlockedColor:
+    Name: '!color!&f colore'
+    Lore:
+      - ' '
+      - '&8Hai ottenuto questo colore da una cassa evento'
+      - ' '
+      - '&7Rarità: !r!'
+  LockedColor:
+    Name: '&cBloccato'
+    Lore:
+      - ' '
+      - '&7Ottieni dalle casse evento'
+      - ' '
+      - '&7Rarità: !r!'
+  Nothing:
+    Name: '&c???'
+  Fairy:
+    Name: '!color! Scia fatina'
+    Lore:
+      - ' '
+      - '&8Evoca una fatina che ti segue'
+      - ' '
+      - '&7Rarità: !r!'
+  Points:
+    LoreAdd:
+      - ' '
+      - '&cHai già questa scia, è stata'
+      - '&cconvertita in &l!points! &cpunti'
+  PointsItem:
+    Name: '&bPunti: !points!'
+    Lore:
+      - ' '
+      - '&7Puoi convertire punti in casse'
+      - ' '
+      - '&71 Cassa = 100 Punti'
+      - ' '
+      - '!convert!'
+    CanConvert: '&eClicca per convertire i tuoi punti!'
+    CantConvert: '&cNon hai abbastanza punti'
+  DatabaseErrorCatch: '&cImpossibile aggiornare i dati, riprova più tardi.'
+ParticleMenu:
+  Heart: '&cCuori'
+  Angry: '&6Arrabbiato'
+  Magic: '&3Magia'
+  Fun: '&eDivertimento'
+  Cloud: '&fNuvola'
+  Witch: '&5Strega'
+  Ender: '&dEnder'
+  Green: '&aVerde'
+  Spark: '&fScintille'
+  Flame: '&6Fiamme'
+  White: '&fMagia bianca'
+  Note: '&3Note'
+  Snow: '&fNeve'
+  Water: '&9Acqua'
+  Lava: '&6Lava'
+  Crit: '&fCritico'
+  Smoke: '&7Fumo'
+  Spell: '&eIncantesimo'
+  Enchant: '&fIncantamento'
+  Splash: '&9Schizzo'
+  Slime: '&aSlime'
+  Snowball: '&fPalle di neve'
+  Void: '&7Vuoto'
+  LavaPop: '&eLava POP'
+  Rainbow: '&eArcobaleno'
+  Breath: '&dSofio del drago'
+  EndRod: '&7Bastone dell''End'
+  Damage: '&cDanno'
+  Totem: '&aTotem'
+  Soul: '&bAnima'
+  SoulFire: '&bFuoco dell''anima'
+  GoldSparks: '&6Scintille dorate'
+  GlowSquid: '&bCalamaro luminoso'
+  PinkConfetti: '&dCoriandoli rosa'
+Modes:
+  Default: 'Predefinito'
+  Circle: 'Cerchio'
+  Magician: 'Mago'
+  Shooter: 'Tiratore'
+  Slinky: 'Slinky'
+  Pulse: 'Impulso'
+  Helix: 'Elica'
+  Dna: 'DNA'
+  Spiral: 'Spirale'
+  ModeNotSupported: '&cModalità attuale non supportata con questa scia'
+  TrailNotSupported: '&cScia attuale non supportata con questa modalità'
+  Lore:
+    - '&6&l----------'
+    - '!permission!'
+BlockMenu:
+  1:
+    Name: '&fBlocchi #1'
+    Lore:
+      - ' '
+      - '&8Blocchi:'
+      - '&8- Lana (Rossa)'
+      - '&8- Lana (Gialla)'
+      - '&8- Lana (Verde)'
+      - '&8- Lana (Blu)'
+      - ' '
+      - '!permission!'
+  2:
+     Name: '&fBlocchi #2'
+     Lore:
+       - ' '
+       - '&8Blocchi:'
+       - '&8- Vetro (Bianco)'
+       - '&8- Vetro (Arancione)'
+       - '&8- Vetro (Magenta)'
+       - '&8- Vetro (Blu)'
+       - ' '
+       - '!permission!'
+  3:
+     Name: '&fBlocchi #3'
+     Lore:
+       - ' '
+       - '&8Blocchi:'
+       - '&8- Minerale di quarzo'
+       - '&8- Mattoni del Nether'
+       - '&8- Netherrack'
+       - '&8- Pietra luminosa'
+       - ' '
+       - '!permission!'
+  4:
+     Name: '&fBlocchi #4'
+     Lore:
+       - ' '
+       - '&8Blocchi:'
+       - '&8- Terracotta (Arancione)'
+       - '&8- Terracotta (Magenta)'
+       - '&8- Terracotta (Grigia)'
+       - '&8- Terracotta (Rosa)'
+       - ' '
+       - '!permission!'
+  5:
+     Name: '&fBlocchi #5'
+     Lore:
+       - ' '
+       - '&8Blocchi:'
+       - '&8- Minerale di lapislazzuli'
+       - '&8- Minerale di smeraldo'
+       - '&8- Minerale di redstone'
+       - '&8- Minerale di carbone'
+       - ' '
+       - '!permission!'
+  6:
+     Name: '&fBlocchi #6'
+     Lore:
+       - ' '
+       - '&8Blocchi:'
+       - '&8- TNT'
+       - '&8- Pistone'
+       - '&8- Blocco note'
+       - '&8- Blocco di redstone'
+       - ' '
+       - '!permission!'
+  7:
+     Name: '&fBlocchi #7'
+     Lore:
+       - ' '
+       - '&8Blocchi:'
+       - '&8- Podzol'
+       - '&8- Erba'
+       - '&8- Ghiaia'
+       - '&8- Sabbia'
+       - ' '
+       - '!permission!'
+  8:
+     Name: '&fBlocchi #8'
+     Lore:
+       - ' '
+       - '&8Blocchi:'
+       - '&8- Blocco di ferro'
+       - '&8- Blocco d''oro'
+       - '&8- Blocco di diamante'
+       - '&8- Blocco di smeraldo'
+       - ' '
+       - '!permission!'
+RainAndWings:
+  White: '&fBianco'
+  Red: '&cRosso'
+  Yellow: '&eGiallo'
+  Green: '&aVerde'
+  Blue: '&9Blu'
+  Purple: '&dViola'
+  Black: '&7Nero'
+  Orange: '&6Arancione'
+  Marmoreal: '&7Marmoreo'
+  Darkred: '&4Rosso scuro'
+  Pink: '&dRosa'
+  Darkcyan: '&3Ciano scuro'
+  Aqua: '&bAcqua'
+  Gray: '&7Grigio'
+  Rainbow: '&7Arcobaleno'
+  Color: '&fColore'
+  Pattern: '&fMotivo'
+Wings:
+  Angel: '&f&lAngelo'
+Pattern:
+  Pattern1: 'M1'

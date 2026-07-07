@@ -1,0 +1,393 @@
+LanguageID: 2
+LanguageName: Español
+System:
+  Selected: '&6Has seleccionado el idioma &aEspañol'
+  Home_Page: 'Inicio'
+  Commands_Page: 'Comandos'
+  Updates_Page: 'Actualizaciones'
+  Usage_Page: 'Uso'
+  Languages_Page: 'Idiomas'
+  Community_Page: 'Comunidad'
+  Trails_CMD: 'Abrir menú de estelas'
+  TrailsID_CMD: 'Seleccionar estela por ID'
+  SuperTrails_CMD: 'Panel admin - Inicio'
+  SuperTrails_Player_CMD: 'Página de Inicio'
+  CmdNoPermissionTrail: '&c¡Lo siento, no tienes permiso para esta estela!'
+  NoWingsPermission: '&c¡Lo siento, no tienes permiso para esas alas'
+  NoPatternPermission: '&c¡Lo siento, no tienes permiso para este patrón'
+  TrailSelected: '&7Has seleccionado la estela &a&l!name!'
+  ToggleOnMessage: '&7Todas las estelas visibles'
+  ToggleOffMessage: '&7Todas las estelas ocultas'
+MenuNames:
+  Selector: 'Estelas: Seleccionar Tipo'
+  Particles: 'Estelas: Partículas'
+  Blocks: 'Estelas: Bloques'
+  Languages: 'Estelas: Idiomas'
+  Modes: 'Estelas: Modos'
+  Rain1: 'Seleccionar color de lluvia'
+  Rain2: 'Seleccionar ítem de lluvia'
+  Wings: 'Alas'
+  Wings1: 'Seleccionar alas'
+  Wings2: 'Color o Patrón'
+  Wings3: 'Seleccionar primer color'
+  Wings4: 'Seleccionar segundo color'
+  Wings5: 'Seleccionar tercer color'
+  WingsPattern: 'Seleccionar patrón'
+  Event: 'Estelas: Evento'
+  EventSecond: 'Estelas: Evento'
+  EventOpen: 'Estelas: Abrir'
+  AreYouSure: '¿Estás seguro?'
+Menu:
+  Particle: '&6Estelas de Partículas'
+  Block: '&3Estelas de Bloques'
+  Rain: '&7Lluvias'
+  Wings: '&fAlas'
+  Langs: '&7Idiomas'
+  Admin: '&7Opciones Admin'
+  Event: '&fEvento'
+  Clear: '&cEliminar Estela'
+  Access: '&a&l¡Clic para seleccionar!'
+  NoAccess: '&c&lSin permiso para esta estela'
+  NoPermission: '§c§lSin permiso'
+  Sell: 'Vender'
+  Buy: 'Comprar'
+  Modes: '&8!prev &7< &f&l!current &7> &8!next'
+  Back: '&7<< Volver al menú principal'
+  NoTrails: '&cNo tienes estelas en esta sección'
+  LangSelect: '&8Clic para seleccionar'
+  Lore:
+    - '&6&l----------'
+    - '!permission!'
+  Next: '&aPágina Siguiente'
+  Prev: '&aPágina Anterior'
+  AYS:
+    SignItem:
+      Name: '&f¿Estás seguro?'
+    YesItem:
+      Name: '&eSí'
+      Lore:
+        - ' '
+        - '&fClic aquí para confirmar'
+    NoItem:
+      Name: '&aNo'
+      Lore:
+        - ' '
+        - '&fClic aquí para cancelar'
+  Keeper:
+    Empty:
+      Name: '&7Ranura Vacía'
+      Lore:
+        - ' '
+        - '&eClic aquí para crear un conjunto de alas'
+    ColorWings:
+      Name: '!wingsname!'
+      Lore:
+        - ' '
+        - '&7Colores:'
+        - '&7 - !color1!'
+        - '&7 - !color2!'
+        - '&7 - !color3!'
+        - ' '
+        - '&eClic Izquierdo para Seleccionar'
+        - '&eClic Derecho para Editar'
+    PatternWings:
+      Name: '!wingsname!'
+      Lore:
+        - ' '
+        - '&7Patrón: &f!pattern!'
+        - ' '
+        - '&eClic Izquierdo para Seleccionar'
+        - '&eClic Derecho para Editar'
+    Remove:
+      Name: '&cEliminar este conjunto'
+      Lore:
+        - '&cClic aquí para eliminar tu conjunto actual'
+    Save:
+       Name: '&aGuardar'
+       Lore:
+         - ' '
+         - '&eClic para guardar cambios'
+    Cancel:
+       Name: '&eCancelar'
+       Lore:
+         - ' '
+         - '&c¡No aplicar ningún cambio!'
+    WingsChange:
+      Name: '&f!wingsname!'
+      Lore:
+        - ' '
+        - '&eClic aquí para cambiar las alas'
+    ColorChange:
+      Name: '&f!color!'
+      Lore:
+        - ' '
+        - '&eClic aquí para cambiar el color'
+    PatternChange:
+      Name: '&f!pattern!'
+      Lore:
+        - ' '
+        - '&eClic aquí para cambiar el patrón'
+    BuildIt:
+      Name: '&aEmpieza a crear tu conjunto ahora'
+      Lore:
+        - '&7Elige las alas arriba'
+    Undefined: '&fNinguno'
+    NotSupported:
+      Name: '&cLas alas actuales no soportan este color'
+    ResetPattern:
+      Name: '&cClic aquí para resetear el patrón'
+    SetUnfinishedError: '&cNo se pudo aplicar el conjunto'
+Event:
+  Messages:
+    Start: '=== /n&a&L¡Evento iniciado, consigue !a! cofre de evento gratis ahora! /n&6Escribe /Trails'
+    End: '&c¡Evento finalizado!'
+    Wait: '&cEspera antes de abrir otro cofre'
+  Rarity:
+    Common: '&f&lCOMÚN'
+    Rare: '&3&lRARO'
+    Epic: '&6&lÉPICO'
+  Chest:
+    Name: '&fCofre de Evento'
+    Lore:
+      - ' '
+      - '&7Cofres que tienes: !a!'
+      - ' '
+      - '!open!'
+    Open: '&a>> Clic para abrir <<'
+    CantOpen: '&cNo tienes cofres'
+  OpenChest:
+    Name: '&aClic para abrir'
+    Lore:
+      - ' '
+      - 'Botín: ???'
+      - ' '
+      - '&7Clic en cualquier cofre para abrirlo'
+  Empty:
+    Name: '&7Cofre vacío'
+  Confetti:
+    Name: '&fEstela de Confeti'
+    Lore:
+      - ' '
+      - '&fColores:'
+      - '!color1!'
+      - '!color2!'
+      - '!color3!'
+      - ' '
+      - '&7Rareza: !r!'
+      - ' '
+      - '&a&lClic para seleccionar'
+  ColorSpin:
+    Name: '!color! Estela Giratoria'
+    Lore:
+      - ' '
+      - '&7Rareza: !r!'
+      - ' '
+      - '&a&lClic para seleccionar'
+  Color:
+    Name: '!color!&f Color de Alas/Lluvia'
+    Lore:
+      - ' '
+      - '&8Disponible en los creadores de Alas y Lluvia'
+      - ' '
+      - '&7Rareza: !r!'
+  UnlockedColor:
+    Name: '!color!&f color'
+    Lore:
+      - ' '
+      - '&8Obtuviste este color de un cofre de evento'
+      - ' '
+      - '&7Rareza: !r!'
+  LockedColor:
+    Name: '&cBloqueado'
+    Lore:
+      - ' '
+      - '&7Obtén de cofres de evento'
+      - ' '
+      - '&7Rareza: !r!'
+  Nothing:
+    Name: '&c???'
+  Fairy:
+    Name: '!color! Estela Hada'
+    Lore:
+      - ' '
+      - '&8Invoca un hada que te sigue'
+      - ' '
+      - '&7Rareza: !r!'
+  Points:
+    LoreAdd:
+      - ' '
+      - '&cYa tienes esta estela, fue'
+      - '&cconvertida a &l!points! &cpuntos'
+  PointsItem:
+    Name: '&bPuntos: !points!'
+    Lore:
+      - ' '
+      - '&7Puedes convertir puntos en cofres'
+      - ' '
+      - '&71 Cofre = 100 Puntos'
+      - ' '
+      - '!convert!'
+    CanConvert: '&e¡Clic para convertir tus puntos!'
+    CantConvert: '&cNo tienes suficientes puntos'
+  DatabaseErrorCatch: '&cNo se pudieron actualizar tus datos, inténtalo más tarde.'
+ParticleMenu:
+  Heart: '&cCorazones'
+  Angry: '&6Enojado'
+  Magic: '&3Magia'
+  Fun: '&eDiversión'
+  Cloud: '&fNube'
+  Witch: '&5Bruja'
+  Ender: '&dEnder'
+  Green: '&aVerde'
+  Spark: '&fChispas'
+  Flame: '&6Llamas'
+  White: '&fMagia Blanca'
+  Note: '&3Notas'
+  Snow: '&fNieve'
+  Water: '&9Agua'
+  Lava: '&6Lava'
+  Crit: '&fCrítico'
+  Smoke: '&7Humo'
+  Spell: '&eHechizo'
+  Enchant: '&fEncantamiento'
+  Splash: '&9Salpicadura'
+  Slime: '&aSlime'
+  Snowball: '&fBolas de Nieve'
+  Void: '&7Vacío'
+  LavaPop: '&eLava POP'
+  Rainbow: '&eArcoíris'
+  Breath: '&dAliento de Dragón'
+  EndRod: '&7Vara del End'
+  Damage: '&cDaño'
+  Totem: '&aTotem'
+  Soul: '&bAlma'
+  SoulFire: '&bFuego del Alma'
+  GoldSparks: '&6Chispas Doradas'
+  GlowSquid: '&bCalamar Brillante'
+  PinkConfetti: '&dConfeti Rosa'
+Modes:
+  Default: 'Predeterminado'
+  Circle: 'Círculo'
+  Magician: 'Mago'
+  Shooter: 'Tirador'
+  Slinky: 'Slinky'
+  Pulse: 'Pulso'
+  Helix: 'Hélice'
+  Dna: 'ADN'
+  Spiral: 'Espiral'
+  ModeNotSupported: '&cModo actual no compatible con esta estela'
+  TrailNotSupported: '&cEstela actual no compatible con este modo'
+  Lore:
+    - '&6&l----------'
+    - '!permission!'
+BlockMenu:
+  1:
+    Name: '&fBloques #1'
+    Lore:
+      - ' '
+      - '&8Bloques:'
+      - '&8- Lana (Rojo)'
+      - '&8- Lana (Amarillo)'
+      - '&8- Lana (Verde)'
+      - '&8- Lana (Azul)'
+      - ' '
+      - '!permission!'
+  2:
+     Name: '&fBloques #2'
+     Lore:
+       - ' '
+       - '&8Bloques:'
+       - '&8- Cristal (Blanco)'
+       - '&8- Cristal (Naranja)'
+       - '&8- Cristal (Magenta)'
+       - '&8- Cristal (Azul)'
+       - ' '
+       - '!permission!'
+  3:
+     Name: '&fBloques #3'
+     Lore:
+       - ' '
+       - '&8Bloques:'
+       - '&8- Mineral de Cuarzo'
+       - '&8- Ladrillo del Nether'
+       - '&8- Netherrack'
+       - '&8- Piedra Brillante'
+       - ' '
+       - '!permission!'
+  4:
+     Name: '&fBloques #4'
+     Lore:
+       - ' '
+       - '&8Bloques:'
+       - '&8- Terracota (Naranja)'
+       - '&8- Terracota (Magenta)'
+       - '&8- Terracota (Gris)'
+       - '&8- Terracota (Rosa)'
+       - ' '
+       - '!permission!'
+  5:
+     Name: '&fBloques #5'
+     Lore:
+       - ' '
+       - '&8Bloques:'
+       - '&8- Mineral de Lapislázuli'
+       - '&8- Mineral de Esmeralda'
+       - '&8- Mineral de Redstone'
+       - '&8- Mineral de Carbón'
+       - ' '
+       - '!permission!'
+  6:
+     Name: '&fBloques #6'
+     Lore:
+       - ' '
+       - '&8Bloques:'
+       - '&8- TNT'
+       - '&8- Pistón'
+       - '&8- Bloque de Notas'
+       - '&8- Bloque de Redstone'
+       - ' '
+       - '!permission!'
+  7:
+     Name: '&fBloques #7'
+     Lore:
+       - ' '
+       - '&8Bloques:'
+       - '&8- Podzol'
+       - '&8- Hierba'
+       - '&8- Grava'
+       - '&8- Arena'
+       - ' '
+       - '!permission!'
+  8:
+     Name: '&fBloques #8'
+     Lore:
+       - ' '
+       - '&8Bloques:'
+       - '&8- Bloque de Hierro'
+       - '&8- Bloque de Oro'
+       - '&8- Bloque de Diamante'
+       - '&8- Bloque de Esmeralda'
+       - ' '
+       - '!permission!'
+RainAndWings:
+  White: '&fBlanco'
+  Red: '&cRojo'
+  Yellow: '&eAmarillo'
+  Green: '&aVerde'
+  Blue: '&9Azul'
+  Purple: '&dMorado'
+  Black: '&7Negro'
+  Orange: '&6Naranja'
+  Marmoreal: '&7Mármol'
+  Darkred: '&4Rojo Oscuro'
+  Pink: '&dRosa'
+  Darkcyan: '&3Cian Oscuro'
+  Aqua: '&bAqua'
+  Gray: '&7Gris'
+  Rainbow: '&7Arcoíris'
+  Color: '&fColor'
+  Pattern: '&fPatrón'
+Wings:
+  Angel: '&f&lÁngel'
+Pattern:
+  Pattern1: 'P1'

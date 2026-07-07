@@ -1,0 +1,393 @@
+LanguageID: 4
+LanguageName: Polski
+System:
+  Selected: '&6Wybrałeś język &aPolski'
+  Home_Page: 'Strona główna'
+  Commands_Page: 'Komendy'
+  Updates_Page: 'Aktualizacje'
+  Usage_Page: 'Użycie'
+  Languages_Page: 'Języki'
+  Community_Page: 'Społeczność'
+  Trails_CMD: 'Otwórz menu smug'
+  TrailsID_CMD: 'Wybierz smugę po ID'
+  SuperTrails_CMD: 'Panel admina - Strona główna'
+  SuperTrails_Player_CMD: 'Strona główna'
+  CmdNoPermissionTrail: '&cPrzepraszamy, nie masz uprawnień do tej smugi!'
+  NoWingsPermission: '&cPrzepraszamy, nie masz uprawnień do tych skrzydeł'
+  NoPatternPermission: '&cPrzepraszamy, nie masz uprawnień do tego wzoru'
+  TrailSelected: '&7Wybrałeś smugę &a&l!name!'
+  ToggleOnMessage: '&7Wszystkie smugi widoczne'
+  ToggleOffMessage: '&7Wszystkie smugi ukryte'
+MenuNames:
+  Selector: 'Smugi: Wybierz typ'
+  Particles: 'Smugi: Cząsteczki'
+  Blocks: 'Smugi: Bloki'
+  Languages: 'Smugi: Języki'
+  Modes: 'Smugi: Tryby'
+  Rain1: 'Wybierz kolor deszczu'
+  Rain2: 'Wybierz przedmiot deszczu'
+  Wings: 'Skrzydła'
+  Wings1: 'Wybierz skrzydła'
+  Wings2: 'Kolor lub wzór'
+  Wings3: 'Wybierz pierwszy kolor'
+  Wings4: 'Wybierz drugi kolor'
+  Wings5: 'Wybierz trzeci kolor'
+  WingsPattern: 'Wybierz wzór'
+  Event: 'Smugi: Wydarzenie'
+  EventSecond: 'Smugi: Wydarzenie'
+  EventOpen: 'Smugi: Otwórz'
+  AreYouSure: 'Czy jesteś pewien?'
+Menu:
+  Particle: '&6Smugi cząsteczkowe'
+  Block: '&3Smugi blokowe'
+  Rain: '&7Deszcze'
+  Wings: '&fSkrzydła'
+  Langs: '&7Języki'
+  Admin: '&7Opcje admina'
+  Event: '&fWydarzenie'
+  Clear: '&cUsuń smugę'
+  Access: '&a&lKliknij aby wybrać!'
+  NoAccess: '&c&lBrak uprawnień do tej smugi'
+  NoPermission: '§c§lBrak uprawnień'
+  Sell: 'Sprzedaj'
+  Buy: 'Kup'
+  Modes: '&8!prev &7< &f&l!current &7> &8!next'
+  Back: '&7<< Powrót do menu głównego'
+  NoTrails: '&cNie masz smug w tej sekcji'
+  LangSelect: '&8Kliknij aby wybrać'
+  Lore:
+    - '&6&l----------'
+    - '!permission!'
+  Next: '&aNastępna strona'
+  Prev: '&aPoprzednia strona'
+  AYS:
+    SignItem:
+      Name: '&fCzy jesteś pewien?'
+    YesItem:
+      Name: '&eTak'
+      Lore:
+        - ' '
+        - '&fKliknij tutaj aby potwierdzić'
+    NoItem:
+      Name: '&aNie'
+      Lore:
+        - ' '
+        - '&fKliknij tutaj aby anulować'
+  Keeper:
+    Empty:
+      Name: '&7Pusty slot'
+      Lore:
+        - ' '
+        - '&eKliknij tutaj aby stworzyć zestaw skrzydeł'
+    ColorWings:
+      Name: '!wingsname!'
+      Lore:
+        - ' '
+        - '&7Kolory:'
+        - '&7 - !color1!'
+        - '&7 - !color2!'
+        - '&7 - !color3!'
+        - ' '
+        - '&eLewy przycisk aby wybrać'
+        - '&ePrawy przycisk aby edytować'
+    PatternWings:
+      Name: '!wingsname!'
+      Lore:
+        - ' '
+        - '&7Wzór: &f!pattern!'
+        - ' '
+        - '&eLewy przycisk aby wybrać'
+        - '&ePrawy przycisk aby edytować'
+    Remove:
+      Name: '&cUsuń ten zestaw'
+      Lore:
+        - '&cKliknij tutaj aby usunąć bieżący zestaw'
+    Save:
+       Name: '&aZapisz'
+       Lore:
+         - ' '
+         - '&eKliknij aby zapisać zmiany'
+    Cancel:
+       Name: '&eAnuluj'
+       Lore:
+         - ' '
+         - '&cNie stosuj żadnych zmian!'
+    WingsChange:
+      Name: '&f!wingsname!'
+      Lore:
+        - ' '
+        - '&eKliknij tutaj aby zmienić skrzydła'
+    ColorChange:
+      Name: '&f!color!'
+      Lore:
+        - ' '
+        - '&eKliknij tutaj aby zmienić kolor'
+    PatternChange:
+      Name: '&f!pattern!'
+      Lore:
+        - ' '
+        - '&eKliknij tutaj aby zmienić wzór'
+    BuildIt:
+      Name: '&aZacznij tworzyć swój zestaw teraz'
+      Lore:
+        - '&7Wybierz skrzydła powyżej'
+    Undefined: '&fBrak'
+    NotSupported:
+      Name: '&cBieżące skrzydła nie obsługują tego koloru'
+    ResetPattern:
+      Name: '&cKliknij tutaj aby zresetować wzór'
+    SetUnfinishedError: '&cNie można zastosować zestawu'
+Event:
+  Messages:
+    Start: '=== /n&a&LWydarzenie rozpoczęte, zdobądź !a! darmowych skrzyń teraz! /n&6Wpisz /Trails'
+    End: '&cWydarzenie zakończone!'
+    Wait: '&cPoczekaj przed otwarciem kolejnej skrzyni'
+  Rarity:
+    Common: '&f&lPOSPOLITY'
+    Rare: '&3&lRZADKI'
+    Epic: '&6&lEPICKI'
+  Chest:
+    Name: '&fSkrzynia wydarzeń'
+    Lore:
+      - ' '
+      - '&7Twoje skrzynie: !a!'
+      - ' '
+      - '!open!'
+    Open: '&a>> Kliknij aby otworzyć <<'
+    CantOpen: '&cNie masz skrzyń'
+  OpenChest:
+    Name: '&aKliknij aby otworzyć'
+    Lore:
+      - ' '
+      - 'Łup: ???'
+      - ' '
+      - '&7Kliknij na dowolną skrzynię aby ją otworzyć'
+  Empty:
+    Name: '&7Skrzynia pusta'
+  Confetti:
+    Name: '&fSmuga konfetti'
+    Lore:
+      - ' '
+      - '&fKolory:'
+      - '!color1!'
+      - '!color2!'
+      - '!color3!'
+      - ' '
+      - '&7Rzadkość: !r!'
+      - ' '
+      - '&a&lKliknij aby wybrać'
+  ColorSpin:
+    Name: '!color! Smuga obrotowa'
+    Lore:
+      - ' '
+      - '&7Rzadkość: !r!'
+      - ' '
+      - '&a&lKliknij aby wybrać'
+  Color:
+    Name: '!color!&f Kolor skrzydeł/deszczu'
+    Lore:
+      - ' '
+      - '&8Dostępny w kreatorach skrzydeł i deszczu'
+      - ' '
+      - '&7Rzadkość: !r!'
+  UnlockedColor:
+    Name: '!color!&f kolor'
+    Lore:
+      - ' '
+      - '&8Zdobyłeś ten kolor ze skrzyni wydarzeń'
+      - ' '
+      - '&7Rzadkość: !r!'
+  LockedColor:
+    Name: '&cZablokowany'
+    Lore:
+      - ' '
+      - '&7Zdobądź ze skrzyń wydarzeń'
+      - ' '
+      - '&7Rzadkość: !r!'
+  Nothing:
+    Name: '&c???'
+  Fairy:
+    Name: '!color! Smuga wróżki'
+    Lore:
+      - ' '
+      - '&8Przywołuje wróżkę, która cię śledzi'
+      - ' '
+      - '&7Rzadkość: !r!'
+  Points:
+    LoreAdd:
+      - ' '
+      - '&cMasz już tę smugę, została'
+      - '&czmieniona na &l!points! &cpunktów'
+  PointsItem:
+    Name: '&bPunkty: !points!'
+    Lore:
+      - ' '
+      - '&7Możesz zamienić punkty na skrzynie'
+      - ' '
+      - '&71 Skrzynia = 100 Punktów'
+      - ' '
+      - '!convert!'
+    CanConvert: '&eKliknij aby zamienić punkty!'
+    CantConvert: '&cNie masz wystarczająco punktów'
+  DatabaseErrorCatch: '&cNie można zaktualizować danych, spróbuj ponownie później.'
+ParticleMenu:
+  Heart: '&cSerca'
+  Angry: '&6Złość'
+  Magic: '&3Magia'
+  Fun: '&eZabawa'
+  Cloud: '&fChmura'
+  Witch: '&5Czarownica'
+  Ender: '&dEnder'
+  Green: '&aZielony'
+  Spark: '&fIskry'
+  Flame: '&6Płomienie'
+  White: '&fBiała magia'
+  Note: '&3Nuty'
+  Snow: '&fŚnieg'
+  Water: '&9Woda'
+  Lava: '&6Lawa'
+  Crit: '&fKrytyczny'
+  Smoke: '&7Dym'
+  Spell: '&eZaklęcie'
+  Enchant: '&fZaczarowanie'
+  Splash: '&9Plusk'
+  Slime: '&aŚluz'
+  Snowball: '&fKule śniegu'
+  Void: '&7Pustka'
+  LavaPop: '&eLawa POP'
+  Rainbow: '&eTęcza'
+  Breath: '&dOddech smoka'
+  EndRod: '&7Różdżka Endu'
+  Damage: '&cObrażenia'
+  Totem: '&aTotem'
+  Soul: '&bDusza'
+  SoulFire: '&bOgień dusz'
+  GoldSparks: '&6Złote iskry'
+  GlowSquid: '&bŚwietlisty kałamarnica'
+  PinkConfetti: '&dRóżowe konfetti'
+Modes:
+  Default: 'Domyślny'
+  Circle: 'Okrąg'
+  Magician: 'Magik'
+  Shooter: 'Strzelec'
+  Slinky: 'Slinky'
+  Pulse: 'Puls'
+  Helix: 'Helisa'
+  Dna: 'DNA'
+  Spiral: 'Spirala'
+  ModeNotSupported: '&cBieżący tryb nie jest obsługiwany z tą smugą'
+  TrailNotSupported: '&cBieżąca smuga nie jest obsługiwana z tym trybem'
+  Lore:
+    - '&6&l----------'
+    - '!permission!'
+BlockMenu:
+  1:
+    Name: '&fBloki #1'
+    Lore:
+      - ' '
+      - '&8Bloki:'
+      - '&8- Wełna (Czerwona)'
+      - '&8- Wełna (Żółta)'
+      - '&8- Wełna (Zielona)'
+      - '&8- Wełna (Niebieska)'
+      - ' '
+      - '!permission!'
+  2:
+     Name: '&fBloki #2'
+     Lore:
+       - ' '
+       - '&8Bloki:'
+       - '&8- Szkło (Białe)'
+       - '&8- Szkło (Pomarańczowe)'
+       - '&8- Szkło (Magenta)'
+       - '&8- Szkło (Niebieskie)'
+       - ' '
+       - '!permission!'
+  3:
+     Name: '&fBloki #3'
+     Lore:
+       - ' '
+       - '&8Bloki:'
+       - '&8- Ruda kwarcu'
+       - '&8- Cegły netheru'
+       - '&8- Netherrack'
+       - '&8- Kamień świecący'
+       - ' '
+       - '!permission!'
+  4:
+     Name: '&fBloki #4'
+     Lore:
+       - ' '
+       - '&8Bloki:'
+       - '&8- Terakota (Pomarańczowa)'
+       - '&8- Terakota (Magenta)'
+       - '&8- Terakota (Szara)'
+       - '&8- Terakota (Różowa)'
+       - ' '
+       - '!permission!'
+  5:
+     Name: '&fBloki #5'
+     Lore:
+       - ' '
+       - '&8Bloki:'
+       - '&8- Ruda lazurytu'
+       - '&8- Ruda szmaragdu'
+       - '&8- Ruda czerwonego kamienia'
+       - '&8- Ruda węgla'
+       - ' '
+       - '!permission!'
+  6:
+     Name: '&fBloki #6'
+     Lore:
+       - ' '
+       - '&8Bloki:'
+       - '&8- TNT'
+       - '&8- Tłok'
+       - '&8- Blok nutowy'
+       - '&8- Blok czerwonego kamienia'
+       - ' '
+       - '!permission!'
+  7:
+     Name: '&fBloki #7'
+     Lore:
+       - ' '
+       - '&8Bloki:'
+       - '&8- Podzol'
+       - '&8- Trawa'
+       - '&8- Żwir'
+       - '&8- Piasek'
+       - ' '
+       - '!permission!'
+  8:
+     Name: '&fBloki #8'
+     Lore:
+       - ' '
+       - '&8Bloki:'
+       - '&8- Blok żelaza'
+       - '&8- Blok złota'
+       - '&8- Blok diamentu'
+       - '&8- Blok szmaragdu'
+       - ' '
+       - '!permission!'
+RainAndWings:
+  White: '&fBiały'
+  Red: '&cCzerwony'
+  Yellow: '&eŻółty'
+  Green: '&aZielony'
+  Blue: '&9Niebieski'
+  Purple: '&dFioletowy'
+  Black: '&7Czarny'
+  Orange: '&6Pomarańczowy'
+  Marmoreal: '&7Marmurowy'
+  Darkred: '&4Ciemnoczerwony'
+  Pink: '&dRóżowy'
+  Darkcyan: '&3Ciemnocyjanowy'
+  Aqua: '&bAkwa'
+  Gray: '&7Szary'
+  Rainbow: '&7Tęczowy'
+  Color: '&fKolor'
+  Pattern: '&fWzór'
+Wings:
+  Angel: '&f&lAnioł'
+Pattern:
+  Pattern1: 'W1'
