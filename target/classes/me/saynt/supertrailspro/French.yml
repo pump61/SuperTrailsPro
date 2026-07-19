@@ -1,0 +1,393 @@
+LanguageID: 6
+LanguageName: Français
+System:
+  Selected: '&6Vous avez sélectionné la langue &aFrançais'
+  Home_Page: 'Accueil'
+  Commands_Page: 'Commandes'
+  Updates_Page: 'Mises à jour'
+  Usage_Page: 'Utilisation'
+  Languages_Page: 'Langues'
+  Community_Page: 'Communauté'
+  Trails_CMD: 'Ouvrir le menu des traînées'
+  TrailsID_CMD: 'Sélectionner une traînée par ID'
+  SuperTrails_CMD: 'Panneau admin - Accueil'
+  SuperTrails_Player_CMD: 'Page d''accueil'
+  CmdNoPermissionTrail: '&cDésolé, vous n''avez pas la permission pour cette traînée!'
+  NoWingsPermission: '&cDésolé, vous n''avez pas la permission pour ces ailes'
+  NoPatternPermission: '&cDésolé, vous n''avez pas la permission pour ce motif'
+  TrailSelected: '&7Vous avez sélectionné la traînée &a&l!name!'
+  ToggleOnMessage: '&7Toutes les traînées visibles'
+  ToggleOffMessage: '&7Toutes les traînées cachées'
+MenuNames:
+  Selector: 'Traînées : Sélectionner le type'
+  Particles: 'Traînées : Particules'
+  Blocks: 'Traînées : Blocs'
+  Languages: 'Traînées : Langues'
+  Modes: 'Traînées : Modes'
+  Rain1: 'Sélectionner la couleur de pluie'
+  Rain2: 'Sélectionner l''objet de pluie'
+  Wings: 'Ailes'
+  Wings1: 'Sélectionner des ailes'
+  Wings2: 'Couleur ou motif'
+  Wings3: 'Sélectionner la première couleur'
+  Wings4: 'Sélectionner la deuxième couleur'
+  Wings5: 'Sélectionner la troisième couleur'
+  WingsPattern: 'Sélectionner un motif'
+  Event: 'Traînées : Événement'
+  EventSecond: 'Traînées : Événement'
+  EventOpen: 'Traînées : Ouvrir'
+  AreYouSure: 'Êtes-vous sûr?'
+Menu:
+  Particle: '&6Traînées de particules'
+  Block: '&3Traînées de blocs'
+  Rain: '&7Pluies'
+  Wings: '&fAiles'
+  Langs: '&7Langues'
+  Admin: '&7Options admin'
+  Event: '&fÉvénement'
+  Clear: '&cSupprimer la traînée'
+  Access: '&a&lCliquez pour sélectionner!'
+  NoAccess: '&c&lPas de permission pour cette traînée'
+  NoPermission: '§c§lPas de permission'
+  Sell: 'Vendre'
+  Buy: 'Acheter'
+  Modes: '&8!prev &7< &f&l!current &7> &8!next'
+  Back: '&7<< Retour au menu principal'
+  NoTrails: '&cVous n''avez pas de traînées dans cette section'
+  LangSelect: '&8Cliquez pour sélectionner'
+  Lore:
+    - '&6&l----------'
+    - '!permission!'
+  Next: '&aPage suivante'
+  Prev: '&aPage précédente'
+  AYS:
+    SignItem:
+      Name: '&fÊtes-vous sûr?'
+    YesItem:
+      Name: '&eOui'
+      Lore:
+        - ' '
+        - '&fCliquez ici pour confirmer'
+    NoItem:
+      Name: '&aNon'
+      Lore:
+        - ' '
+        - '&fCliquez ici pour annuler'
+  Keeper:
+    Empty:
+      Name: '&7Emplacement vide'
+      Lore:
+        - ' '
+        - '&eCliquez ici pour créer un set d''ailes'
+    ColorWings:
+      Name: '!wingsname!'
+      Lore:
+        - ' '
+        - '&7Couleurs :'
+        - '&7 - !color1!'
+        - '&7 - !color2!'
+        - '&7 - !color3!'
+        - ' '
+        - '&eClic gauche pour sélectionner'
+        - '&eClic droit pour modifier'
+    PatternWings:
+      Name: '!wingsname!'
+      Lore:
+        - ' '
+        - '&7Motif : &f!pattern!'
+        - ' '
+        - '&eClic gauche pour sélectionner'
+        - '&eClic droit pour modifier'
+    Remove:
+      Name: '&cSupprimer ce set'
+      Lore:
+        - '&cCliquez ici pour supprimer votre set actuel'
+    Save:
+       Name: '&aSauvegarder'
+       Lore:
+         - ' '
+         - '&eCliquez pour sauvegarder'
+    Cancel:
+       Name: '&eAnnuler'
+       Lore:
+         - ' '
+         - '&cNe pas appliquer de modifications!'
+    WingsChange:
+      Name: '&f!wingsname!'
+      Lore:
+        - ' '
+        - '&eCliquez ici pour changer les ailes'
+    ColorChange:
+      Name: '&f!color!'
+      Lore:
+        - ' '
+        - '&eCliquez ici pour changer la couleur'
+    PatternChange:
+      Name: '&f!pattern!'
+      Lore:
+        - ' '
+        - '&eCliquez ici pour changer le motif'
+    BuildIt:
+      Name: '&aCommencez à créer votre set maintenant'
+      Lore:
+        - '&7Choisissez des ailes ci-dessus'
+    Undefined: '&fAucun'
+    NotSupported:
+      Name: '&cLes ailes actuelles ne supportent pas cette couleur'
+    ResetPattern:
+      Name: '&cCliquez ici pour réinitialiser le motif'
+    SetUnfinishedError: '&cImpossible d''appliquer le set'
+Event:
+  Messages:
+    Start: '=== /n&a&LÉvénement démarré, obtenez !a! coffre d''événement gratuit maintenant! /n&6Tapez /Trails'
+    End: '&cÉvénement terminé!'
+    Wait: '&cAttendez avant d''ouvrir un autre coffre'
+  Rarity:
+    Common: '&f&lCOMMUN'
+    Rare: '&3&lRARE'
+    Epic: '&6&lÉPIQUE'
+  Chest:
+    Name: '&fCoffre d''événement'
+    Lore:
+      - ' '
+      - '&7Coffres que vous avez : !a!'
+      - ' '
+      - '!open!'
+    Open: '&a>> Cliquez pour ouvrir <<'
+    CantOpen: '&cVous n''avez pas de coffres'
+  OpenChest:
+    Name: '&aCliquez pour ouvrir'
+    Lore:
+      - ' '
+      - 'Butin : ???'
+      - ' '
+      - '&7Cliquez sur n''importe quel coffre pour l''ouvrir'
+  Empty:
+    Name: '&7Coffre vide'
+  Confetti:
+    Name: '&fTraînée confetti'
+    Lore:
+      - ' '
+      - '&fCouleurs :'
+      - '!color1!'
+      - '!color2!'
+      - '!color3!'
+      - ' '
+      - '&7Rareté : !r!'
+      - ' '
+      - '&a&lCliquez pour sélectionner'
+  ColorSpin:
+    Name: '!color! Traînée tournante'
+    Lore:
+      - ' '
+      - '&7Rareté : !r!'
+      - ' '
+      - '&a&lCliquez pour sélectionner'
+  Color:
+    Name: '!color!&f Couleur ailes/pluie'
+    Lore:
+      - ' '
+      - '&8Disponible dans les créateurs d''ailes et de pluie'
+      - ' '
+      - '&7Rareté : !r!'
+  UnlockedColor:
+    Name: '!color!&f couleur'
+    Lore:
+      - ' '
+      - '&8Vous avez obtenu cette couleur d''un coffre d''événement'
+      - ' '
+      - '&7Rareté : !r!'
+  LockedColor:
+    Name: '&cVerrouillé'
+    Lore:
+      - ' '
+      - '&7Obtenez des coffres d''événement'
+      - ' '
+      - '&7Rareté : !r!'
+  Nothing:
+    Name: '&c???'
+  Fairy:
+    Name: '!color! Traînée fée'
+    Lore:
+      - ' '
+      - '&8Invoque une fée qui vous suit'
+      - ' '
+      - '&7Rareté : !r!'
+  Points:
+    LoreAdd:
+      - ' '
+      - '&cVous avez déjà cette traînée, elle a été'
+      - '&cconvertie en &l!points! &cpoints'
+  PointsItem:
+    Name: '&bPoints : !points!'
+    Lore:
+      - ' '
+      - '&7Vous pouvez convertir des points en coffres'
+      - ' '
+      - '&71 Coffre = 100 Points'
+      - ' '
+      - '!convert!'
+    CanConvert: '&eCliquez pour convertir vos points!'
+    CantConvert: '&cVous n''avez pas assez de points'
+  DatabaseErrorCatch: '&cImpossible de mettre à jour vos données, réessayez plus tard.'
+ParticleMenu:
+  Heart: '&cCœurs'
+  Angry: '&6En colère'
+  Magic: '&3Magie'
+  Fun: '&eAmusement'
+  Cloud: '&fNuage'
+  Witch: '&5Sorcière'
+  Ender: '&dEnder'
+  Green: '&aVert'
+  Spark: '&fÉtincelles'
+  Flame: '&6Flammes'
+  White: '&fMagie blanche'
+  Note: '&3Notes'
+  Snow: '&fNeige'
+  Water: '&9Eau'
+  Lava: '&6Lave'
+  Crit: '&fCritique'
+  Smoke: '&7Fumée'
+  Spell: '&eSortilège'
+  Enchant: '&fEnchantement'
+  Splash: '&9Éclaboussure'
+  Slime: '&aSlime'
+  Snowball: '&fBoules de neige'
+  Void: '&7Vide'
+  LavaPop: '&eLave POP'
+  Rainbow: '&eArc-en-ciel'
+  Breath: '&dSouffle du dragon'
+  EndRod: '&7Bâton de l''End'
+  Damage: '&cDégâts'
+  Totem: '&aTotem'
+  Soul: '&bÂme'
+  SoulFire: '&bFeu de l''âme'
+  GoldSparks: '&6Étincelles dorées'
+  GlowSquid: '&bCalmar lumineux'
+  PinkConfetti: '&dConfettis roses'
+Modes:
+  Default: 'Défaut'
+  Circle: 'Cercle'
+  Magician: 'Magicien'
+  Shooter: 'Tireur'
+  Slinky: 'Slinky'
+  Pulse: 'Pulsion'
+  Helix: 'Hélice'
+  Dna: 'ADN'
+  Spiral: 'Spirale'
+  ModeNotSupported: '&cMode actuel non supporté avec cette traînée'
+  TrailNotSupported: '&cTraînée actuelle non supportée avec ce mode'
+  Lore:
+    - '&6&l----------'
+    - '!permission!'
+BlockMenu:
+  1:
+    Name: '&fBlocs #1'
+    Lore:
+      - ' '
+      - '&8Blocs :'
+      - '&8- Laine (Rouge)'
+      - '&8- Laine (Jaune)'
+      - '&8- Laine (Verte)'
+      - '&8- Laine (Bleue)'
+      - ' '
+      - '!permission!'
+  2:
+     Name: '&fBlocs #2'
+     Lore:
+       - ' '
+       - '&8Blocs :'
+       - '&8- Verre (Blanc)'
+       - '&8- Verre (Orange)'
+       - '&8- Verre (Magenta)'
+       - '&8- Verre (Bleu)'
+       - ' '
+       - '!permission!'
+  3:
+     Name: '&fBlocs #3'
+     Lore:
+       - ' '
+       - '&8Blocs :'
+       - '&8- Minerai de quartz'
+       - '&8- Briques du Nether'
+       - '&8- Netherrack'
+       - '&8- Pierre lumineuse'
+       - ' '
+       - '!permission!'
+  4:
+     Name: '&fBlocs #4'
+     Lore:
+       - ' '
+       - '&8Blocs :'
+       - '&8- Terre cuite (Orange)'
+       - '&8- Terre cuite (Magenta)'
+       - '&8- Terre cuite (Grise)'
+       - '&8- Terre cuite (Rose)'
+       - ' '
+       - '!permission!'
+  5:
+     Name: '&fBlocs #5'
+     Lore:
+       - ' '
+       - '&8Blocs :'
+       - '&8- Minerai de lapis-lazuli'
+       - '&8- Minerai d''émeraude'
+       - '&8- Minerai de redstone'
+       - '&8- Minerai de charbon'
+       - ' '
+       - '!permission!'
+  6:
+     Name: '&fBlocs #6'
+     Lore:
+       - ' '
+       - '&8Blocs :'
+       - '&8- TNT'
+       - '&8- Piston'
+       - '&8- Bloc de notes'
+       - '&8- Bloc de redstone'
+       - ' '
+       - '!permission!'
+  7:
+     Name: '&fBlocs #7'
+     Lore:
+       - ' '
+       - '&8Blocs :'
+       - '&8- Podzol'
+       - '&8- Herbe'
+       - '&8- Gravier'
+       - '&8- Sable'
+       - ' '
+       - '!permission!'
+  8:
+     Name: '&fBlocs #8'
+     Lore:
+       - ' '
+       - '&8Blocs :'
+       - '&8- Bloc de fer'
+       - '&8- Bloc d''or'
+       - '&8- Bloc de diamant'
+       - '&8- Bloc d''émeraude'
+       - ' '
+       - '!permission!'
+RainAndWings:
+  White: '&fBlanc'
+  Red: '&cRouge'
+  Yellow: '&eJaune'
+  Green: '&aVert'
+  Blue: '&9Bleu'
+  Purple: '&dViolet'
+  Black: '&7Noir'
+  Orange: '&6Orange'
+  Marmoreal: '&7Marbré'
+  Darkred: '&4Rouge foncé'
+  Pink: '&dRose'
+  Darkcyan: '&3Cyan foncé'
+  Aqua: '&bAqua'
+  Gray: '&7Gris'
+  Rainbow: '&7Arc-en-ciel'
+  Color: '&fCouleur'
+  Pattern: '&fMotif'
+Wings:
+  Angel: '&f&lAnge'
+Pattern:
+  Pattern1: 'M1'

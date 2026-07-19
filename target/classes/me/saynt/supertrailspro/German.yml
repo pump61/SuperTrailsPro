@@ -1,0 +1,393 @@
+LanguageID: 3
+LanguageName: Deutsch
+System:
+  Selected: '&6Du hast die Sprache &aDeutsch &6ausgewählt'
+  Home_Page: 'Startseite'
+  Commands_Page: 'Befehle'
+  Updates_Page: 'Updates'
+  Usage_Page: 'Verwendung'
+  Languages_Page: 'Sprachen'
+  Community_Page: 'Community'
+  Trails_CMD: 'Trail-Menü öffnen'
+  TrailsID_CMD: 'Trail per ID auswählen'
+  SuperTrails_CMD: 'Admin-Panel - Startseite'
+  SuperTrails_Player_CMD: 'Startseite'
+  CmdNoPermissionTrail: '&cEntschuldigung, du hast keine Berechtigung für diesen Trail!'
+  NoWingsPermission: '&cEntschuldigung, du hast keine Berechtigung für diese Flügel'
+  NoPatternPermission: '&cEntschuldigung, du hast keine Berechtigung für dieses Muster'
+  TrailSelected: '&7Du hast den Trail &a&l!name! &7ausgewählt'
+  ToggleOnMessage: '&7Alle Trails sichtbar'
+  ToggleOffMessage: '&7Alle Trails versteckt'
+MenuNames:
+  Selector: 'Trails: Typ auswählen'
+  Particles: 'Trails: Partikel'
+  Blocks: 'Trails: Blöcke'
+  Languages: 'Trails: Sprachen'
+  Modes: 'Trails: Modi'
+  Rain1: 'Regenfarbe auswählen'
+  Rain2: 'Regengegenstand auswählen'
+  Wings: 'Flügel'
+  Wings1: 'Flügel auswählen'
+  Wings2: 'Farbe oder Muster'
+  Wings3: 'Erste Farbe auswählen'
+  Wings4: 'Zweite Farbe auswählen'
+  Wings5: 'Dritte Farbe auswählen'
+  WingsPattern: 'Muster auswählen'
+  Event: 'Trails: Event'
+  EventSecond: 'Trails: Event'
+  EventOpen: 'Trails: Öffnen'
+  AreYouSure: 'Bist du sicher?'
+Menu:
+  Particle: '&6Partikel-Trails'
+  Block: '&3Block-Trails'
+  Rain: '&7Regen'
+  Wings: '&fFlügel'
+  Langs: '&7Sprachen'
+  Admin: '&7Admin-Optionen'
+  Event: '&fEvent'
+  Clear: '&cTrail entfernen'
+  Access: '&a&lKlicken zum Auswählen!'
+  NoAccess: '&c&lKeine Berechtigung für diesen Trail'
+  NoPermission: '§c§lKeine Berechtigung'
+  Sell: 'Verkaufen'
+  Buy: 'Kaufen'
+  Modes: '&8!prev &7< &f&l!current &7> &8!next'
+  Back: '&7<< Zurück zum Hauptmenü'
+  NoTrails: '&cDu hast keine Trails in diesem Bereich'
+  LangSelect: '&8Klicken zum Auswählen'
+  Lore:
+    - '&6&l----------'
+    - '!permission!'
+  Next: '&aNächste Seite'
+  Prev: '&aVorherige Seite'
+  AYS:
+    SignItem:
+      Name: '&fBist du sicher?'
+    YesItem:
+      Name: '&eJa'
+      Lore:
+        - ' '
+        - '&fKlicke hier zum Bestätigen'
+    NoItem:
+      Name: '&aNein'
+      Lore:
+        - ' '
+        - '&fKlicke hier zum Abbrechen'
+  Keeper:
+    Empty:
+      Name: '&7Leerer Slot'
+      Lore:
+        - ' '
+        - '&eKlicke hier um ein Flügel-Set zu erstellen'
+    ColorWings:
+      Name: '!wingsname!'
+      Lore:
+        - ' '
+        - '&7Farben:'
+        - '&7 - !color1!'
+        - '&7 - !color2!'
+        - '&7 - !color3!'
+        - ' '
+        - '&eLinksklick zum Auswählen'
+        - '&eRechtsklick zum Bearbeiten'
+    PatternWings:
+      Name: '!wingsname!'
+      Lore:
+        - ' '
+        - '&7Muster: &f!pattern!'
+        - ' '
+        - '&eLinksklick zum Auswählen'
+        - '&eRechtsklick zum Bearbeiten'
+    Remove:
+      Name: '&cDieses Set entfernen'
+      Lore:
+        - '&cKlicke hier um dein aktuelles Set zu entfernen'
+    Save:
+       Name: '&aSpeichern'
+       Lore:
+         - ' '
+         - '&eKlicken zum Speichern'
+    Cancel:
+       Name: '&eAbbrechen'
+       Lore:
+         - ' '
+         - '&cKeine Änderungen übernehmen!'
+    WingsChange:
+      Name: '&f!wingsname!'
+      Lore:
+        - ' '
+        - '&eKlicke hier um die Flügel zu wechseln'
+    ColorChange:
+      Name: '&f!color!'
+      Lore:
+        - ' '
+        - '&eKlicke hier um die Farbe zu wechseln'
+    PatternChange:
+      Name: '&f!pattern!'
+      Lore:
+        - ' '
+        - '&eKlicke hier um das Muster zu wechseln'
+    BuildIt:
+      Name: '&aErstelle dein Set jetzt'
+      Lore:
+        - '&7Wähle oben Flügel aus'
+    Undefined: '&fKeines'
+    NotSupported:
+      Name: '&cAktuelle Flügel unterstützen diese Farbe nicht'
+    ResetPattern:
+      Name: '&cKlicke hier um das Muster zurückzusetzen'
+    SetUnfinishedError: '&cSet konnte nicht angewendet werden'
+Event:
+  Messages:
+    Start: '=== /n&a&LEvent gestartet, hol dir !a! gratis Event-Truhen jetzt! /n&6Tippe /Trails'
+    End: '&cEvent beendet!'
+    Wait: '&cWarte bevor du eine weitere Truhe öffnest'
+  Rarity:
+    Common: '&f&lGEWÖHNLICH'
+    Rare: '&3&lSELTEN'
+    Epic: '&6&lEPISCH'
+  Chest:
+    Name: '&fEvent-Truhe'
+    Lore:
+      - ' '
+      - '&7Deine Truhen: !a!'
+      - ' '
+      - '!open!'
+    Open: '&a>> Klicken zum Öffnen <<'
+    CantOpen: '&cDu hast keine Truhen'
+  OpenChest:
+    Name: '&aKlicken zum Öffnen'
+    Lore:
+      - ' '
+      - 'Beute: ???'
+      - ' '
+      - '&7Klicke auf eine Truhe zum Öffnen'
+  Empty:
+    Name: '&7Truhe leer'
+  Confetti:
+    Name: '&fKonfetti-Trail'
+    Lore:
+      - ' '
+      - '&fFarben:'
+      - '!color1!'
+      - '!color2!'
+      - '!color3!'
+      - ' '
+      - '&7Seltenheit: !r!'
+      - ' '
+      - '&a&lKlicken zum Auswählen'
+  ColorSpin:
+    Name: '!color! Dreh-Trail'
+    Lore:
+      - ' '
+      - '&7Seltenheit: !r!'
+      - ' '
+      - '&a&lKlicken zum Auswählen'
+  Color:
+    Name: '!color!&f Flügel/Regen-Farbe'
+    Lore:
+      - ' '
+      - '&8Verfügbar in Flügel- und Regen-Erstellern'
+      - ' '
+      - '&7Seltenheit: !r!'
+  UnlockedColor:
+    Name: '!color!&f Farbe'
+    Lore:
+      - ' '
+      - '&8Diese Farbe aus Event-Truhe erhalten'
+      - ' '
+      - '&7Seltenheit: !r!'
+  LockedColor:
+    Name: '&cGesperrt'
+    Lore:
+      - ' '
+      - '&7Aus Event-Truhen erhalten'
+      - ' '
+      - '&7Seltenheit: !r!'
+  Nothing:
+    Name: '&c???'
+  Fairy:
+    Name: '!color! Fee-Trail'
+    Lore:
+      - ' '
+      - '&8Beschwört eine Fee, die dir folgt'
+      - ' '
+      - '&7Seltenheit: !r!'
+  Points:
+    LoreAdd:
+      - ' '
+      - '&cDu hast diesen Trail bereits, er wurde'
+      - '&cin &l!points! &cPunkte umgewandelt'
+  PointsItem:
+    Name: '&bPunkte: !points!'
+    Lore:
+      - ' '
+      - '&7Du kannst Punkte in Truhen umwandeln'
+      - ' '
+      - '&71 Truhe = 100 Punkte'
+      - ' '
+      - '!convert!'
+    CanConvert: '&eKlicken zum Umwandeln!'
+    CantConvert: '&cNicht genug Punkte'
+  DatabaseErrorCatch: '&cDaten konnten nicht aktualisiert werden, bitte versuche es später.'
+ParticleMenu:
+  Heart: '&cHerzen'
+  Angry: '&6Wut'
+  Magic: '&3Magie'
+  Fun: '&eSpaß'
+  Cloud: '&fWolke'
+  Witch: '&5Hexe'
+  Ender: '&dEnder'
+  Green: '&aGrün'
+  Spark: '&fFunken'
+  Flame: '&6Flammen'
+  White: '&fWeiße Magie'
+  Note: '&3Noten'
+  Snow: '&fSchnee'
+  Water: '&9Wasser'
+  Lava: '&6Lava'
+  Crit: '&fKritisch'
+  Smoke: '&7Rauch'
+  Spell: '&eZauber'
+  Enchant: '&fVerzauberung'
+  Splash: '&9Spritzer'
+  Slime: '&aSchleim'
+  Snowball: '&fSchneebälle'
+  Void: '&7Leere'
+  LavaPop: '&eLava POP'
+  Rainbow: '&eRegenbogen'
+  Breath: '&dDrachenodem'
+  EndRod: '&7End-Stab'
+  Damage: '&cSchaden'
+  Totem: '&aTotem'
+  Soul: '&bSeele'
+  SoulFire: '&bSeelenfeuer'
+  GoldSparks: '&6Goldfunken'
+  GlowSquid: '&bLeuchttintenfisch'
+  PinkConfetti: '&dRosa Konfetti'
+Modes:
+  Default: 'Standard'
+  Circle: 'Kreis'
+  Magician: 'Zauberer'
+  Shooter: 'Schütze'
+  Slinky: 'Slinky'
+  Pulse: 'Puls'
+  Helix: 'Helix'
+  Dna: 'DNA'
+  Spiral: 'Spirale'
+  ModeNotSupported: '&cAktueller Modus wird mit diesem Trail nicht unterstützt'
+  TrailNotSupported: '&cAktueller Trail wird mit diesem Modus nicht unterstützt'
+  Lore:
+    - '&6&l----------'
+    - '!permission!'
+BlockMenu:
+  1:
+    Name: '&fBlöcke #1'
+    Lore:
+      - ' '
+      - '&8Blöcke:'
+      - '&8- Wolle (Rot)'
+      - '&8- Wolle (Gelb)'
+      - '&8- Wolle (Grün)'
+      - '&8- Wolle (Blau)'
+      - ' '
+      - '!permission!'
+  2:
+     Name: '&fBlöcke #2'
+     Lore:
+       - ' '
+       - '&8Blöcke:'
+       - '&8- Glas (Weiß)'
+       - '&8- Glas (Orange)'
+       - '&8- Glas (Magenta)'
+       - '&8- Glas (Blau)'
+       - ' '
+       - '!permission!'
+  3:
+     Name: '&fBlöcke #3'
+     Lore:
+       - ' '
+       - '&8Blöcke:'
+       - '&8- Quarzerz'
+       - '&8- Netherziegelstein'
+       - '&8- Netherrack'
+       - '&8- Leuchtstein'
+       - ' '
+       - '!permission!'
+  4:
+     Name: '&fBlöcke #4'
+     Lore:
+       - ' '
+       - '&8Blöcke:'
+       - '&8- Terrakotta (Orange)'
+       - '&8- Terrakotta (Magenta)'
+       - '&8- Terrakotta (Grau)'
+       - '&8- Terrakotta (Rosa)'
+       - ' '
+       - '!permission!'
+  5:
+     Name: '&fBlöcke #5'
+     Lore:
+       - ' '
+       - '&8Blöcke:'
+       - '&8- Lapislazulierz'
+       - '&8- Smaragderz'
+       - '&8- Redstoneerz'
+       - '&8- Kohle Erz'
+       - ' '
+       - '!permission!'
+  6:
+     Name: '&fBlöcke #6'
+     Lore:
+       - ' '
+       - '&8Blöcke:'
+       - '&8- TNT'
+       - '&8- Kolben'
+       - '&8- Notenblock'
+       - '&8- Redstoneblock'
+       - ' '
+       - '!permission!'
+  7:
+     Name: '&fBlöcke #7'
+     Lore:
+       - ' '
+       - '&8Blöcke:'
+       - '&8- Podzol'
+       - '&8- Gras'
+       - '&8- Kies'
+       - '&8- Sand'
+       - ' '
+       - '!permission!'
+  8:
+     Name: '&fBlöcke #8'
+     Lore:
+       - ' '
+       - '&8Blöcke:'
+       - '&8- Eisenblock'
+       - '&8- Goldblock'
+       - '&8- Diamantblock'
+       - '&8- Smaragdblock'
+       - ' '
+       - '!permission!'
+RainAndWings:
+  White: '&fWeiß'
+  Red: '&cRot'
+  Yellow: '&eGelb'
+  Green: '&aGrün'
+  Blue: '&9Blau'
+  Purple: '&dLila'
+  Black: '&7Schwarz'
+  Orange: '&6Orange'
+  Marmoreal: '&7Marmor'
+  Darkred: '&4Dunkelrot'
+  Pink: '&dRosa'
+  Darkcyan: '&3Dunkelcyan'
+  Aqua: '&bAqua'
+  Gray: '&7Grau'
+  Rainbow: '&7Regenbogen'
+  Color: '&fFarbe'
+  Pattern: '&fMuster'
+Wings:
+  Angel: '&f&lEngel'
+Pattern:
+  Pattern1: 'M1'
