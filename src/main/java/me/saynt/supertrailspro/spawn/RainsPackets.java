@@ -44,7 +44,7 @@ public class RainsPackets implements RainsInterface {
          Location spawnLoc = loc.clone().add(0.0D, 3.0D, 0.0D);
 
          // Spawna o item via API Bukkit
-         Item item = (Item) loc.getWorld().spawnEntity(spawnLoc, EntityType.DROPPED_ITEM);
+         Item item = (Item) loc.getWorld().spawnEntity(spawnLoc, EntityType.ITEM);
          item.setItemStack(stack);
          item.setPickupDelay(Integer.MAX_VALUE); // ninguém coleta
          item.setGravity(true);

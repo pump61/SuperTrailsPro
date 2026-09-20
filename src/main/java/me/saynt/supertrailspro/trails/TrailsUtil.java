@@ -2,7 +2,7 @@ package me.saynt.supertrailspro.trails;
 
 import java.util.HashMap;
 import java.util.Iterator;
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 import me.saynt.supertrailspro.P;
 import me.saynt.supertrailspro.STUtils;
 import me.saynt.supertrailspro.SuperTrails;

@@ -3,7 +3,7 @@ package me.saynt.stserver.packets;
 import java.io.File;
 
 import java.nio.file.Files;
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 
 public class FilePacket extends Packet {
    private static final long serialVersionUID = 95138872618314958L;

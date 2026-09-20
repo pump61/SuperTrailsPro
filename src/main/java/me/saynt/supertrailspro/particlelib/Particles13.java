@@ -79,7 +79,7 @@ public class Particles13 implements ParticleLib {
          if (world == null) return;
          for (Player p : world.getPlayers()) {
             if (p.getLocation().distance(loc) < 20.0D) {
-               p.spawnParticle(Particle.REDSTONE, loc, count, 0, 0, 0, dust);
+               p.spawnParticle(Particle.DUST, loc, count, 0, 0, 0, dust);
             }
          }
       } catch (Exception e) {
@@ -94,7 +94,7 @@ public class Particles13 implements ParticleLib {
          if (world == null) return;
          for (Player p : world.getPlayers()) {
             if (p.getLocation().distance(loc) < 20.0D) {
-               p.spawnParticle(Particle.ITEM_CRACK, loc, count, offX, offY, offZ, speed, item);
+               p.spawnParticle(Particle.ITEM, loc, count, offX, offY, offZ, speed, item);
             }
          }
       } catch (Exception e) {

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map.Entry;
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 import me.saynt.stserver.packets.InventoryPacket;
 import me.saynt.stserver.packets.ItemPacket;
 import me.saynt.stserver.packets.Packet;

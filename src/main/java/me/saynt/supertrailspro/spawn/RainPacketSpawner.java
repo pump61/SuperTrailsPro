@@ -24,7 +24,7 @@ public class RainPacketSpawner {
          locs = loc;
 
          Item item = (Item) loc.getWorld().spawnEntity(
-            loc.clone().add(0, 4, 0), EntityType.DROPPED_ITEM
+            loc.clone().add(0, 4, 0), EntityType.ITEM
          );
          item.setItemStack(new ItemStack(Material.APPLE));
          item.setPickupDelay(Integer.MAX_VALUE);

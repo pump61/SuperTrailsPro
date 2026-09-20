@@ -1,6 +1,6 @@
 package me.saynt.supertrailspro.community2.listener;
 
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 import me.saynt.stserver.packets.AuthResponeType;
 import me.saynt.stserver.packets.AuthenticationResponePacket;
 import me.saynt.stserver.packets.Packet;

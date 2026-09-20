@@ -6,7 +6,7 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map.Entry;
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 import javax.imageio.ImageIO;
 import me.saynt.supertrailspro.STUtils;
 import me.saynt.supertrailspro.data.PlayerData;

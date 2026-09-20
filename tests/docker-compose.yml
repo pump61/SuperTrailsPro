@@ -1,0 +1,29 @@
+# Throw-away Paper 26.3 server to load-test SuperTrailsPro. `docker compose -f tests/docker-compose.yml up -d`
+name: stp-tests
+services:
+  mc:
+    image: itzg/minecraft-server:java25
+    ports:
+      - "25600:25565"
+      - "25601:25575"
+    environment:
+      EULA: "TRUE"
+      TYPE: PAPER
+      VERSION: "${MC_VERSION:-26.3}"
+      PAPER_CHANNEL: experimental
+      MEMORY: 1G
+      ONLINE_MODE: "FALSE"
+      ENABLE_RCON: "TRUE"
+      RCON_PASSWORD: testpass
+      MODE: creative
+      LEVEL_TYPE: flat
+      GENERATE_STRUCTURES: "FALSE"
+      # ViaVersion ViaBackwards lets the test bot (protocol 26.1, the newest mineflayer knows) join a 26.3 server
+      MODRINTH_PROJECTS: "viaversion,viabackwards"
+      MODRINTH_ALLOWED_VERSION_TYPE: alpha
+      VIEW_DISTANCE: "4"
+      SIMULATION_DISTANCE: "4"
+    volumes:
+      - ./.stage/plugins:/plugins:ro
+      - ./.stage/data:/data
+    stop_grace_period: 30s

@@ -1,0 +1,10 @@
+{
+  "project": "supertrailspro",
+  "jar": "target/supertrailspro-{version}.jar",
+  "versionPrefix": "v",
+  "name": "SuperTrailsPRO {version}",
+  "versionType": "release",
+  "loaders": ["paper", "spigot", "bukkit", "purpur"],
+  "gameVersions": ["26.3"],
+  "featured": true
+}

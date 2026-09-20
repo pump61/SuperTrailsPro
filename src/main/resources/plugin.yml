@@ -1,8 +1,8 @@
 name: SuperTrailsPro
-version: v2.0.0
+version: v2.1.0
 main: me.saynt.supertrailspro.SuperTrails
 author: [kvq]
-api-version: '1.21'
+api-version: '26.3'
 loadbefore: [SuperTrails]
 softdepend: [Citizens]
 commands:

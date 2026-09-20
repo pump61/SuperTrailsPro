@@ -1,0 +1,9 @@
+{
+  "name": "stp-test-bot",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "mineflayer": "^4.39.0",
+    "rcon-client": "^4.2.5"
+  }
+}

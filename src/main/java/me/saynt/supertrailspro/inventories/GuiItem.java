@@ -193,7 +193,7 @@ public class GuiItem {
             }
 
             if (this.glowing) {
-               var3.addEnchant(Enchantment.DURABILITY, 1, true);
+               var3.addEnchant(Enchantment.UNBREAKING, 1, true);
                var3.addItemFlags(new ItemFlag[]{ItemFlag.HIDE_ENCHANTS});
             }
 
@@ -230,7 +230,7 @@ public class GuiItem {
          }
 
          if (this.glowing) {
-            var3.addEnchant(Enchantment.DURABILITY, 1, true);
+            var3.addEnchant(Enchantment.UNBREAKING, 1, true);
             var3.addItemFlags(new ItemFlag[]{ItemFlag.HIDE_ENCHANTS});
          }
 

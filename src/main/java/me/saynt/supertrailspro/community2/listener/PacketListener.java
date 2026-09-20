@@ -1,6 +1,6 @@
 package me.saynt.supertrailspro.community2.listener;
 
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 import me.saynt.stserver.packets.Packet;
 import org.bukkit.entity.Player;
 

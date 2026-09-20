@@ -33,7 +33,7 @@ public class RainsNMS implements RainsInterface {
          stack = stack.clone();
          Location spawnLoc = loc.clone().add(0, 3, 0);
 
-         Item item = (Item) loc.getWorld().spawnEntity(spawnLoc, EntityType.DROPPED_ITEM);
+         Item item = (Item) loc.getWorld().spawnEntity(spawnLoc, EntityType.ITEM);
          item.setItemStack(stack);
          item.setPickupDelay(Integer.MAX_VALUE);
          item.setGravity(true);

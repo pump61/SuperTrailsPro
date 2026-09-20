@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map.Entry;
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 import me.saynt.supertrailspro.data.DataManager;
 import me.saynt.supertrailspro.data.PlayerData;
 import org.bukkit.Material;

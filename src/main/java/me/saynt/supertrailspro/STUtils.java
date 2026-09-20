@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map.Entry;
 import java.util.Random;
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 import me.saynt.supertrailspro.eventtrails.ColoredCircle;
 import me.saynt.supertrailspro.eventtrails.ConfettiTrail;
 import me.saynt.supertrailspro.eventtrails.EventColor;
